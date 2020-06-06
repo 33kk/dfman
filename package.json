@@ -1,0 +1,41 @@
+{
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^3.1.0",
+		"@typescript-eslint/parser": "^3.1.0",
+		"typescript": "^3.9.5",
+		"eslint": "^7.2.0",
+		"commitizen": "^4.1.2",
+		"cz-customizable": "^6.2.0"
+	},
+	"name": "dfman",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"dependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tsc --watch --sourceMap",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/33kk/dfman.git"
+	},
+	"keywords": [
+		"dotfiles"
+	],
+	"author": "33kk",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/33kk/dfman/issues"
+	},
+	"homepage": "https://github.com/33kk/dfman#readme",
+	"description": "",
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-customizable"
+		},
+		"cz-customizable": {
+			"config": "cz-config.js"
+		}
+	}
+}
