@@ -2,18 +2,18 @@
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^3.1.0",
 		"@typescript-eslint/parser": "^3.1.0",
-		"typescript": "^3.9.5",
-		"eslint": "^7.2.0",
 		"commitizen": "^4.1.2",
-		"cz-customizable": "^6.2.0"
+		"cz-customizable": "^6.2.0",
+		"eslint": "^7.2.0",
+		"typescript": "^3.9.5"
 	},
 	"name": "dfman",
 	"version": "1.0.0",
 	"main": "src/index.js",
-	"dependencies": {},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "tsc --watch --sourceMap",
+		"dev": "tsc --sourceMap && cd ./dist && node ./index.js",
+		"watch": "tsc --sourceMap --watch",
 		"build": "tsc"
 	},
 	"repository": {
