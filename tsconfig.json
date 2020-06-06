@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "target": "ES5",
+        "module": "ESNext",
+        "outDir": "./dist"
+    },
+    "include": [
+        "./src/*.ts"
+    ]
+}
